@@ -132,7 +132,7 @@ footer p {
 
 .image-subtext {
   text-align: center;
-  color: #707070;
+  color: #1F2937;
 }
 
 .quote-section {
@@ -161,4 +161,27 @@ footer p {
   text-align: right;
 }
 
+.action-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
 
+.action-container {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  padding: 50px 0;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 12px;
+}
+
+.action-container h2, p {
+  margin: 0;
+}
+
+.action-container button {
+  border: 2px solid #F9FAF8;
+}
